@@ -6,7 +6,6 @@ import checkPropTypes from "check-prop-types";
  * @param {string} val - value data-test attribute
  * @returns {ShallowWrapper}
  */
-
 export const findByTestAttr = (wrapper, val) => {
   return wrapper.find(`[data-test="${val}"]`);
 };
