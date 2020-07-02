@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 const GuessedWords = (props) => {
   const content = props.guessedWords.length ? (
     <div data-test="guessed-words">
-      <h1>Guessed Words:</h1>
-      <table>
-        <thead>
+      <h3>Guessed Words:</h3>
+      <table className="table table-sm">
+        <thead className="thead-light">
           <tr>
             <th>Word</th>
             <th>Match letters Count</th>
